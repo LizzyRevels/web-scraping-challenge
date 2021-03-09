@@ -12,7 +12,7 @@ from splinter import Browser
 from webdriver_manager.chrome import ChromeDriverManager
 import pandas as pd
 import pymongo
-from flask import Flask, render_template
+
 
 
 # Step 1 - Scraping
@@ -32,6 +32,9 @@ from flask import Flask, render_template
 # Initialize PyMongo to work with MongoDBs
 conn = 'mongodb://localhost:27017'
 client = pymongo.MongoClient(conn)
+
+
+
 
 
 # In[ ]:
